@@ -174,7 +174,7 @@ callback|string|jsonp callback function name
 
 ### [MagicSeaweed](https://magicseaweed.com/)
 
-MagicSeaweed has a [well-documented JSON API](https://magicseaweed.com/developer/forecast-api) that requires requesting an API key via email. This was a straightforward process and they got back to me quickly with my key.
+MagicSeaweed has a [well-documented JSON API](https://magicseaweed.com/docs/api/60/) that requires requesting an API key via email. This was a straightforward process and they got back to me quickly with my key.
 
 I've asked MagicSeaweed a few questions and added their responses below:
 

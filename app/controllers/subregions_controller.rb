@@ -27,6 +27,7 @@ class SubregionsController < ApplicationController
         lat: s[:lat],
         lon: s[:lon],
         msw_id: s[:msw_id],
+        noaa_id: s[:noaa_id],
         spitcast_id: s[:spitcast_id],
         spitcast_slug: s[:spitcast_slug],
         surfline_v1_id: s[:surfline_v1_id],

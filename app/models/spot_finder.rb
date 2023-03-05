@@ -62,6 +62,15 @@ class SpotFinder
       spot[:surfline_v2_id] = surfline['_id']
     end
 
+    noaa_spots.each do |noaa|
+      @all_spots << {
+        name: noaa['name'],
+        noaa_id: noaa['_id'],
+        lat: noaa['lat'],
+        lon: noaa['lon'],
+      }
+    end
+
     @all_spots
   end
 
